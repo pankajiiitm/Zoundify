@@ -1,6 +1,7 @@
 {
   "name": "soundify",
   "version": "0.1.0",
+  "homepage": "https://pankajiiit.github.io/zoundify",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
