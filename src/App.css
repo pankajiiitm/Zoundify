@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.root {
+  height: 100%; /* Set height of root element */
+}
+
+/* .App {
+  text-align: center;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+} */
+
+/* .left {
+  background-color:#61677A;
+  width: 20%;
+  height: 100px;
+}
+
+.right {
+  width: 80%;
+  background-color: #191919;
+  height: 100px;
+} */
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin: 10px auto;
+  width: 400px; /* Example width */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.mycard{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; 
+  width: 100%;
+}
+.brand-logo{
+  margin-left: 10px;
+}
+#nav-mobile{
+  color: black;
+}
+
+.curved-background {
+  position: relative;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50px 50px 0 0;
+  overflow: hidden;
+  padding: 20px;
+}
+.input-field{
+  width: 250px;
+}
