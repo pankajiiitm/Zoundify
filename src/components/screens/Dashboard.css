@@ -1,0 +1,49 @@
+.dashboard-wrap{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    height: 100vh;
+}
+.dashboard-nav{
+    border-bottom: 1px solid #505050;
+    background: #2E2E30;
+    height: 60px;
+
+
+}
+/* .project{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.dashboard-sidebar{
+    flex: 5%;
+    margin-right: 10px;
+    height: 100%;
+    background-color: #2E2E30;
+}
+.dashboard-project{
+    margin: 10px;
+    background-color: #2E2E30;
+    border: 1px solid #505050;
+    width: 100%;
+    border-radius: 5px;
+} */
+.project {
+    display: flex;
+    flex: 1;
+}
+
+.dashboard-sidebar {
+    flex: 0 0 250px; /* Set sidebar width */
+    margin-right: 10px;
+    background-color: #2e2e30;
+}
+
+.dashboard-project {
+    flex: 1;
+    margin: 10px;
+    background-color: #2e2e30;
+    border: 1px solid #505050;
+    border-radius: 5px;
+}

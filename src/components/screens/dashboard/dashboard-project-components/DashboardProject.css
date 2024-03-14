@@ -1,0 +1,58 @@
+.project-container {
+    padding: 30px;
+    margin: 10px;
+}
+
+.project-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center elements */
+    margin-bottom: 20px; /* Add margin bottom to create space between top bar and media list */
+}
+
+.project-top-bar-left {
+    display: flex;
+    align-items: center; /* Vertically center elements */
+}
+
+.project-list select {
+    margin-right: 10px;
+    vertical-align: middle; /* Vertically center the dropdown */
+}
+
+.project-head {
+    margin-right: 10px; /* Add margin between "My Media" text and dropdown */
+}
+.project-head h5 {
+    font-weight: bold; /* Increase font weight */
+    margin: 0; /* Reset margin */
+}
+
+.project-list select {
+    margin-right: 10px; /* Add margin between dropdown and button */
+}
+
+.upload-button {
+    background-color: #bbc8db;
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.media-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.media-list th,
+.media-list td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.media-list th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,45 @@
+.dashboard-sidebar {
+    width: 216px;
+    height: 100%;
+    top: 67px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e30;
+    color: white;
+    padding: 12px;
+}
+.compartment-wrapper{
+    border-bottom: 1px solid #505050;
+    width: 100%;
+}
+
+.compartment {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.compartment:hover {
+    background-color: #3a3a3c;
+}
+
+.compartment:not(:last-child) {
+    border-bottom: 1px solid #505050; /* Apply border to all compartments except the last one */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text:hover {
+    color: #007bff; /* Example color */
+}
