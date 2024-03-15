@@ -126,3 +126,190 @@ i {
     margin-bottom: 10px;
 }
 
+.login-page-new {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #fafbfc;
+  }
+  
+  nav {
+    display: block;
+  }
+  
+  .login-page-new__logo {
+    position: fixed;
+    top: 34px;
+    left: 34px;
+    z-index: 10;
+  }
+  
+  .login-page-new__main {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  .login-page-new__main-bg {
+    position: absolute;
+    height: calc(100% - 17vh);
+    width: 100%;
+    top: 17vh;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: url(../../../public/login__bg.8e44616319b55ac1.svg) center 10px no-repeat;
+    background-size: cover;
+  }
+  
+  .login-page-new__main-bg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200%;
+    height: 300%;
+    top: -100%;
+    left: -50%;
+    background: url(../../../public/login__bg-dots.4777a8eaedc1248b.svg);
+    transform: rotate(-28deg);
+  }
+  .login-page-new__main-bg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+ 
+  }
+  .login-page-new__main-container {
+    overflow: visible;
+    position: relative;
+  }
+  .login-page-new__main-form {
+    width: 480px;
+    background: #fff;
+    box-shadow: 0 24px 64px #26214a1a;
+    border-radius: 12px;
+    padding: 30px 60px;
+    position: relative;
+  }
+  .login-page-new__main-form-title-brand {
+    width: 100%;
+  }
+  .login-page-new__main-form-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #292d34;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-page-new__main-form-router-outlet {
+    width: 100%;
+  }
+  .login-page-new__main-form-row {
+    --color-error: #e04f44;
+    width: 100%;
+    position: relative;
+    margin-bottom: 26px;
+  }
+  .login-page-new__main-form-row-label {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    display: block;
+    color: #292d34;
+    padding: 0 0 8px 2px;
+  }
+  
+  .login-page-new__main-form-row input {
+    transition: border-color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, roboto,
+      Helvetica Neue, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    width: 100%;
+    border: 1px solid #d6d9de;
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 0 20px 0 36px;
+    height: 40px;
+    color: #2a2e34;
+  }
+  
+  .login-page-new__main-form-row-icon {
+    position: absolute;
+    left: 10px;
+    top: 29px;
+    width: 20px;
+    height: 20px;
+    fill: #b9bec7;
+  }
+  
+  .login-page-new__main-form-row-icon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-page-new__main-form-button {
+    background-color: var(--theme-main-color);
+  }
+  
+  button {
+    box-shadow: none;
+    text-shadow: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .login-page-new__main-form-button {
+    transition: background-color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+    background-color: #7b68ee;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, roboto,
+      Helvetica Neue, helvetica, arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 9px;
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  
+  .login-page-new__main-form-button-text {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+  }
+  .login-page-new__main-form-google {
+    margin: -10px 0 25px;
+    display: block;
+  }
+  
+  /* Mobile Responsive */
+  @media only screen and (max-width: 768px) {
+    .login-page-new__main-form {
+      width: 345px;
+      margin: 20px 20px 50px;
+      padding: 20px;
+    }
+  }
+  

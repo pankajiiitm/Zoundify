@@ -1,15 +1,19 @@
-.new-project-wrapper{
+.new-project-wrapper {
     display: flex;
+    flex: 1;
     flex-direction: row;
     width: 100%;
     height: 100vh;
-    background-color:black;
+    background-color: black;
+    padding: 30px;
 }
-.new-project-section{
+
+.new-project-section {
     margin: 10px;
     padding: 4px;
 }
-.new-project-record-section{
+
+.new-project-record-section {
     border: 1px solid #505050;
     background: #2E2E30;
     border-radius: 5px;
@@ -17,19 +21,129 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
+    height: 75vh;
+
 }
-.microphone-file-text{
+
+.new-project-section-media {
+    margin: 10px;
+}
+
+.recording-btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.recording-btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.microphone-file-text {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 4px;
     margin: 10px;
     color: white;
 }
-.microphone-file-text-div{
+
+.microphone-file-text-div {
     border-radius: 2px;
     border: 1px solid #505050;
     align-items: center;
     justify-content: center;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.new-project-text-section {
+    border: 1px solid #505050;
+    background: #2E2E30;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+.new-project-input-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #505050;
+   
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 75vh;
+    padding-left: 20px;
+}
+
+#Pname {
+    border: 1px solid #505050;
+    /* add solid border for all sides */
+    border-radius: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#Pname:focus {
+    border-color: black;
+    /* change border color when input is focused */
+}
+
+.rounded-div {
+    width: 150px;
+    /* Adjust width as needed */
+    height: 50px;
+    /* Adjust height as needed */
+    border: 1px solid #505050;
+    border-radius: 10px;
+    margin-right: 10px;
+    /* Add margin for spacing between divs */
+    margin-bottom: 10px;
+    /* Add margin for spacing between divs */
+}
+.favourite-voices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create-proj-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-proj-btn button {
+    height: 40px;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 300px;
+    color: white;
+    padding: 10px 0;
 }

@@ -1,0 +1,19 @@
+.custom-google-login {
+  width: 360px;
+  font-weight: 700;
+}
+
+.custom-google-login span {
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-google-login {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+
+  .custom-google-login span {
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+}
